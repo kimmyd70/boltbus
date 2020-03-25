@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*your styles go here*/
+/*structural*/
+#header {
+    height: 200px;
+	background-color:#397fa9;
+}
+#nav {margin-top:100px;}
+#nav a {color:#fff; font-weight:bold;}
+#header h1 a {display: block; width:360px; height:70px;
+background-image:url(../img/logo.jpg); background-repeat:no-repeat;	margin-top:80px; text-indent:-9999px;}
+.row_lg {
+    background: red;/*delete this. for demo*/
+    min-height: 40vh;/*delete this. for demo*/
+    color: white;/*delete this. for demo*/
+}
+
+
+
+/*typographic*/
+body {
+    color: #363c41;
+    font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;/*delete this. for demo*/
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.6;
+    letter-spacing: 0.01rem;
+}
+b, strong {
+    font-weight: 700;
+}
+p {
+    margin-bottom: 2.5rem;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+  
+}
+h1 {
+    font-size: 40px;
+   
+
+}
+h2 {
+    font-size: 36px;
+    line-height: 1.25;
+    background: red;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h3 {text-align:center;
+	color:red;	
+    font-size: 28px;
+   
+}
+h4 {
+    font-size: 20px;
+   
+    text-align: left;
+    margin-top: 30px;
+    font-weight: normal;
+    padding-left: 8px;
+}
+h5 {
+    font-size: 18px;
+    
+}
+h6 {
+    font-size: 16px;
+   
+}
+ul#nav {
+    display: flex;
+    justify-content: space-around;
+}
+#nav li {
+    line-height: 60px;
+}
+
+@media (min-width:601px) and (max-width: 1100px) {
+/*tablet*/
+
+}
+
+@media (max-width: 600px) {
+/*large phone*/
+}
+
+@media (max-width: 400px) {
+/*small phone*/
+}
